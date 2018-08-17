@@ -9,9 +9,7 @@ body {
 * {
   box-sizing: border-box;
 }
-
-/* general */
-
+ 
 .card {
   margin-top: 20px;
 }
@@ -56,6 +54,16 @@ navbar a {
   height: 70px;
 }
 
+.navbar-brand {
+  margin-left:20px;
+  padding: 20px;
+  background-color: #4aaaa5 !important;
+  font-size: 20px;
+  line-height: 20px;
+  color: #efefef !important;
+  border-bottom: 3px solid #ddd;
+}
+
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -93,6 +101,7 @@ input[type=submit] {
 textarea {
   height: 200px;
 }
+
 
 .carousel-caption {
   font-size: 18px !important;
